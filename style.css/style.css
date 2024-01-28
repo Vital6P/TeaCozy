@@ -5,10 +5,9 @@ body {
     font-size: 22px;
     color: seashell;
     background-color: black;
-    opacity: 0.6;
+    opacity: 0.5;
     align-items: center;
-    margin: 0px;
-    padding: 0px;
+    margin: 0;
 }
 
 header {
@@ -46,10 +45,11 @@ nav a {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 69px;
+    margin-top: 70px;
     background-image: url(/imgs/img-mission-background.webp);
     height: 700px;
     width: 1200px;
+    margin-bottom: 50px;
 }
 
 .missionContainer .missionText {
@@ -81,6 +81,14 @@ nav a {
     display: flex;
     width: 300px;
     height: 200px;
+}
+
+.teaContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 15px;
 }
 
 h2, h4 {
