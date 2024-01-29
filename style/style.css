@@ -59,6 +59,11 @@ nav a {
     width: 100%;
     background-color: black;
 }
+
+.missionContainer h2, h4 {
+    margin: 10px;
+}
+
 /*Tea of the Month*/
 
 .teaMain {
@@ -68,19 +73,17 @@ nav a {
     justify-content: center;
     align-items: center;
     width: 1000px;
-}
-
-.berryBlitz {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    margin-bottom: 60px;
 }
 
 .teaContainer img {
     display: flex;
     width: 300px;
     height: 200px;
+}
+
+.teaContainer h4 {
+    margin: 10px;
 }
 
 .teaContainer {
@@ -91,6 +94,52 @@ nav a {
     padding: 10px 15px;
 }
 
-h2, h4 {
-    margin: 10px;
+/*Tea Locations*/
+
+.locationMain {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../imgs/img-locations-background.webp);
+    width: 1200px;
+    height: 500px;
+}
+
+.locationMain .locationContainers {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.locationContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 300x;
+    width: 300px;
+    background-color: black;
+    margin: 0 20px;
+    font-weight: 700;
+}
+
+.Contact h1 {
+    margin-top: 10px;
+}
+
+.Contact {
+    text-align: center;
+    height: 200px;
+}
+
+.teaFooter {
+    font-weight: 700;
+    float: left;
+    width: 100%;
+}
+
+.teaFooter h5 {
+    margin-left: 20px;
 }
